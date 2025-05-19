@@ -1,0 +1,9 @@
+{
+  "version": 2,
+  "buildCommand": "prisma generate && next build",
+  "installCommand": "npm install",
+  "framework": "nextjs",
+  "env": {
+    "JWT_SECRET": "oB/2U8PN7U+LXAkk9A3Juj76FKtMjVZbf3X0LmpPusM="
+  }
+} 
