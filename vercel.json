@@ -5,5 +5,11 @@
   "framework": "nextjs",
   "env": {
     "JWT_SECRET": "oB/2U8PN7U+LXAkk9A3Juj76FKtMjVZbf3X0LmpPusM="
-  }
+  },
+  "builds": [
+    {
+      "src": "package.json",
+      "use": "@vercel/next"
+    }
+  ]
 } 
