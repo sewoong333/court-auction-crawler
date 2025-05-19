@@ -1,0 +1,43 @@
+{
+  "name": "nuna-auction",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint",
+    "crawl": "ts-node src/lib/crawler.ts"
+  },
+  "dependencies": {
+    "@headlessui/react": "^2.2.3",
+    "@heroicons/react": "^2.2.0",
+    "@prisma/client": "^6.8.2",
+    "@tanstack/react-query": "^5.76.1",
+    "@types/bcryptjs": "^2.4.6",
+    "@types/jsonwebtoken": "^9.0.9",
+    "@types/node": "latest",
+    "@types/react": "latest",
+    "@types/react-dom": "latest",
+    "axios": "^1.9.0",
+    "bcryptjs": "^3.0.2",
+    "cheerio": "^1.0.0",
+    "cloudinary": "^2.6.1",
+    "dayjs": "^1.11.13",
+    "eslint": "latest",
+    "jsonwebtoken": "^9.0.2",
+    "next": "^15.3.2",
+    "prisma": "^6.8.2",
+    "react": "^19.1.0",
+    "react-dom": "^19.1.0",
+    "ts-node": "^10.9.2",
+    "typescript": "latest",
+    "ws": "^8.18.2"
+  },
+  "devDependencies": {
+    "@types/ws": "^8.18.1",
+    "autoprefixer": "^10.4.17",
+    "postcss": "^8.4.35",
+    "tailwindcss": "^3.4.1"
+  }
+}
